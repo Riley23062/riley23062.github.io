@@ -5,5 +5,7 @@ null,
 {"id":3,"expanded":true,"name":"homeOutside","order":3,"parentId":2,"scrollX":1404,"scrollY":790.2857142857142},
 {"id":4,"expanded":true,"name":"The depths","order":4,"parentId":3,"scrollX":1404,"scrollY":790.2857142857142},
 {"id":5,"expanded":false,"name":"MAP005","order":5,"parentId":4,"scrollX":1404,"scrollY":790.2857142857142},
-{"id":6,"expanded":false,"name":"boulderPass","order":6,"parentId":0,"scrollX":1476,"scrollY":776.5714285714286}
+{"id":6,"expanded":true,"name":"boulderPass","order":6,"parentId":0,"scrollX":1404,"scrollY":776.5714285714286},
+{"id":7,"expanded":true,"name":"dungeonBpass1","order":7,"parentId":6,"scrollX":1390.2857142857142,"scrollY":790.2857142857142},
+{"id":8,"expanded":false,"name":"dungeonBpass2","order":8,"parentId":7,"scrollX":1232,"scrollY":624}
 ]
