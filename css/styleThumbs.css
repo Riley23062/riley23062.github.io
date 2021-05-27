@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'reactor7regular';
+  src: url('reactor7-webfont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: 100px;
+}
+
+.buttons>* {
+  display: inline-block;
+  text-align: center;
+  padding: 0px 5px;
+}
+
+p {
+  font-family: 'reactor7regular', Reactor7, serif;
+}
+
+.nextPage {
+  text-align: right;
+}
+
+.button_center {
+  text-align: center;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(0deg, rgba(2, 0, 36, 1) 10%, rgba(143, 143, 69, 1) 55%, rgba(255, 255, 119, 1) 83%);
+  background-repeat: no-repeat;
+  background-color: rgba(2, 0, 36, 1);
+}
+
+a:link,
+a:visited {
+  background-color: #00006e;
+  color: #ffff77;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: #ffff77;
+  color: black
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  position: relative;
+  bottom: 20px;
+}
+
+img {
+  width: 35%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1400px) {
+  img {
+    width: auto;
+    height: auto;
+  }
+
+  body {
+    background-color: rgba(2, 0, 36, 1);
+  }
+}
