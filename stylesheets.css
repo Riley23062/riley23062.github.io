@@ -1,0 +1,106 @@
+body, h1,h2,h3,h4,h5,h6 {font-family: Arial, Helvetica, sans-serif}
+body, h2,h3,h4,h5,h6 {
+    color: #a027a0 ;
+
+}
+h1 {
+    color:#86cecb
+}
+
+p {
+    text-align: center;
+    color: #f0f8ff;
+}
+
+.content {
+   text-align: center;
+   color: #242424;
+   width: 300px;
+   border: 10px solid #bec8d1;
+   padding: 0;
+   margin: auto;
+   
+
+}
+
+.links {
+    text-align: center;
+    color: #242424;
+    width: 300px;
+    border: 0px solid #bec8d1;
+    padding: 2;
+}
+
+    a:link {
+        width: 300px;
+        padding: 48;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        
+
+    }
+    
+    a:visited { 
+        color: #e12885;
+
+
+    }
+    
+    a:hover {
+        color: #2fe0e9;
+        background-color: #db36fc;
+
+
+    }
+    
+    a:active{
+        color: aliceblue;
+
+
+    }
+
+    .button {
+        display: inline-block;
+
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        margin: 10px;
+        left: 780px;
+        position: relative;
+        border: 5px solid #999;
+        border-radius: 10px;
+        box-shadow: 0 9px #666;
+        
+      }
+      
+      .button:hover {background-color: #db36fc}
+      
+      .button:active {
+        background-color: #db36fc;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+#tabs a {
+    color: #e12885;
+    background-color: #bec8d1;
+}
+#tabs li {
+    font-size: 18px;
+    display: inline;
+    margin: 10px;
+    left: 579px;
+    position: relative;
+    background-color: #bec8d1;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#tabs .ui-tabs-active {
+    background-color: #db36fc;
+    color: #2fe0e9;
+}
